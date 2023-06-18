@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <div className="bg-img"></div>
-      <div className="main">
-      Hello World...
-      </div>
+        <div className="main">
+          <h1>Emily's Blooming Cake Company</h1>
+          <p>Coming soon...</p>
+        </div>
     </div>
   );
 }
 
-export default App;
+export default App
