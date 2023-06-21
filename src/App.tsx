@@ -1,14 +1,18 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
 
 const App = () => {
   return (
     <div className="App">
-      <div className="bg-img"></div>
-        <div className="main">
-          <h1>Emily's Blooming Cake Company</h1>
-          <p>Coming soon...</p>
-        </div>
+      <Header />
+
+      <div className='image-section' >Baking Delightful Memories</div>
+
+      <div>
+        <p>Email: hello@emilysbloomingcakecompany.co.uk</p>
+        <p>Tel: 07956 689654</p>
+      </div>
     </div>
   );
 }
